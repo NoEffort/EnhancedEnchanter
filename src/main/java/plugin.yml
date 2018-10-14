@@ -1,0 +1,31 @@
+name: EnhancedEnchanter
+main: me.noeffort.enhancedenchanter.Main
+version: 1.7.9
+
+softdepend: [Simpl-eTokens]
+description: More enchantments
+author: NoEffort 
+
+commands:
+  enchanter:
+    aliases: [ench, ee]
+    description: Main command for plugin.
+    usage: "Usage: /<command>"
+    permission: enchanter.use
+    
+permissions:
+  enchanter.*:
+    description: Access all plugin permissions
+    children:
+      enchanter.use: true
+      enchanter.unsafe: true
+      enchanter.admin: true
+  enchanter.use:
+    description: Use the plugin
+    default: true
+  enchanter.unsafe:
+    description: Use unsafe enchantments
+    default: false
+  enchanter.admin:
+    description: Access admin commands
+    default: false
