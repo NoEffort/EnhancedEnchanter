@@ -1,2 +1,4 @@
 # EnhancedEnchanter
-More special, custom enchantments to Vanilla Minecraft. 
+
+Ready for release, no known bugs. More enchantments always being added.    
+*Balancing needs to be tweaked*
